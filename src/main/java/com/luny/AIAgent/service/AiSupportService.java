@@ -5,7 +5,6 @@ import com.luny.AIAgent.tool.ProductionHealthTool;
 import com.luny.AIAgent.tool.ProductionLogTool;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
-
 @Service
 public class AiSupportService {
 

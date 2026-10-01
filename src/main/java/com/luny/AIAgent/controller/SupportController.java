@@ -27,7 +27,8 @@ public class SupportController {
     @GetMapping("/ask")
     public String ask(@RequestParam String question)
     {
-        return aiSupportService.ask(question);
+        //return "I am getting from ask";
+       return aiSupportService.ask(question);
     }
     @GetMapping("/health-tool")
     public String healthTool() {
